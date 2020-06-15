@@ -1,0 +1,11 @@
+framework module LYKScrollViewSDK {
+  umbrella header "LYKScrollViewSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module LYKScrollViewSDK.Swift {
+    header "LYKScrollViewSDK-Swift.h"
+    requires objc
+}
